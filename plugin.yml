@@ -1,0 +1,5 @@
+name: SampleML
+main: mydeacy\mlsample\Sample
+version: 1.0.0
+api: ["3.6"]
+author: MyDeacy
