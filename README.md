@@ -1,2 +1,2 @@
 # Sample-MoneyLevel
-MoneyLevel外部使用のサンプル
+まぁ、必要ないと思うけどね
