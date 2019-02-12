@@ -13,7 +13,10 @@ class Sample extends PluginBase implements Listener {
 	public function onEnable(){
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 	}
-
+	
+	/**
+	 * @priority HIGH
+	 */
 	function onJoin(PlayerJoinEvent $event){
 		$name = $event->getPlayer()->getName();
 		$level = MoneyLevelAPI::getInstance()->getLv($name);
