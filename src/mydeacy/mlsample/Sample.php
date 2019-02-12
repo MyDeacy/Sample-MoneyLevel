@@ -15,7 +15,7 @@ class Sample extends PluginBase implements Listener {
 	}
 	
 	/**
-	 * @priority HIGH
+	 * @priority MONITOR
 	 */
 	function onJoin(PlayerJoinEvent $event){
 		$name = $event->getPlayer()->getName();
